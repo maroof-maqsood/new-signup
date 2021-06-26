@@ -1,6 +1,6 @@
 var mongoose = require("mongoose");
 
-let dbURI = "mongodb+srv://raza26032:raza26032@cluster0.ypq3m.mongodb.net/firstDB?retryWrites=true&w=majority";
+let dbURI = "mongodb+srv://raza26032:raza26032@cluster0.ypq3m.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true });
 
 ////////////////mongodb connected disconnected events///////////////////////////////////////////////

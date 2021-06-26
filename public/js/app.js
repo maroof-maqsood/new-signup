@@ -1,5 +1,4 @@
 // const url = "http://localhost:5000";
-// const url = "https://server-class-one.herokuapp.com"
 const url = "https://new-signup.herokuapp.com/"
 
 var socket = io(url);
